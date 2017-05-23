@@ -10,3 +10,9 @@ spring Project:
 - If your database is new, spring already created at that point all tables from the defined @Entity of the project (nothing to do further)
 - If your database is new and empty, you'll need to import informations in it -> execute .sql in your database (Mysql Workbench for Windows )
 - You should be able to call the REST point with Postman or any REST-Client and with the Basic Authentification (username: Darksilvi; password: password) with a GET request at the URL: http://localhost:8080/competence
+
+Angular Project:
+- Install nodejs (npm come with it)
+- Install cli -> npm install -g @angular/cli
+- in the Folder -> npm install (dl all node_modules)
+- ng serve
